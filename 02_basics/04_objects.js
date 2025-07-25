@@ -30,26 +30,53 @@ const obj4 = {5 : "a" , 6 : "b"}
 // console.log(obj3);
 
 
-const users = [
-    {
-        id:1,
-        email: "m@gmail.com"
-    },
-    {
-        id:1,
-        email: "m@gmail.com"
-    },
-    {
-        id:1,
-        email: "m@gmail.com"
-    },
+// const users = [
+//     {
+//         id:1,
+//         email: "m@gmail.com"
+//     },
+//     {
+//         id:1,
+//         email: "m@gmail.com"
+//     },
+//     {
+//         id:1,
+//         email: "m@gmail.com"
+//     },
+// ]
+
+// users[1].email
+// console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.enteries(tinderUser));
+
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "manasi"
+}
+
+// course.courseInstructor
+
+const {courseInstructor : instructor} = course
+
+//console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name: "manasi"
+//     "coursename" :  "js in hindi",
+//     "price" : "free"
+// }
+
+[
+    {},
+    {},
+    {},
 ]
 
-users[1].email
-console.log(tinderUser);
-
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.enteries(tinderUser));
-
-console.log(tinderUser.hasOwnProperty('isLogged'));
